@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto, arial;
+    background-color: rgb(193, 242, 138);
+  }
+  
+  .form-container {
+    border: none;
+    width: 300px;
+    height: 300px;
+    padding: 10px 100px 20px 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(146, 144, 145);
+    position: relative;
+  }
+  
+  .cancel-btn {
+    position: absolute;
+    font-size: 25px;
+    margin-left: -80px;
+  }
+  
+  
+  .form-title {
+    text-align: center;
+    margin: 27px 0 0 0;
+  }
+  
+  input {
+    box-sizing:border-box;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 7px 12px 7px 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(165, 165, 165);
+  }
+  
+  button {
+    width: 100%;
+    text-align: center;
+    padding: 7px 12px 7px 12px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(3, 2, 2);
+    border: none;
+    background-color: rgb(245, 241, 185);
+  }
